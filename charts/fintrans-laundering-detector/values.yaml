@@ -1,0 +1,22 @@
+# Default values for fintrans-laundering-detector.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+image:
+  repository: pupapaik/
+  name: fintrans-generator
+  tag: latest
+  pullPolicy: IfNotPresent
+
+kafka:
+  # if disabled, subchart will not be deployed
+  deployChart: true
+  # this address will be used if subchart deployment is disabled
+  externalAddress: ""
+
+resources:
+  #requests:
+  #  cpu: 100m
+  #  memory: 512Mi
+  #limits:
+  #  cpu: 100m
+  #  memory: 512Mi
