@@ -1,0 +1,6 @@
+description: A Helm chart for Financial Transaction Generator
+name: fintrans-generator
+version: 1.0.0
+description: Fast Data - Financial Transaction Processing.
+sources: 
+- https://github.com/dcos/demos/tree/master/fintrans/1.9
