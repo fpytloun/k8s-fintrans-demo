@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 image:
   repository: pupapaik/
-  name: fintrans-generator
+  name: fintrans-laundering-detector
   tag: latest
   pullPolicy: IfNotPresent
 
