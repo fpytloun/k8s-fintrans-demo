@@ -21,7 +21,7 @@
     {{- if .Values.influxdb.deployChart -}}
         {{- $address := printf "influx-%s" .Release.Name | trunc 55 | trimSuffix "-" -}}
         {{- $url := printf "%s:%d" $address (int .Values.influxdb.ports.http.port) -}}
-        {{- printf "http://%s" $url
+        {{- printf "http://%s" $url -}}
     {{- else -}}
         {{- printf "%s" .Values.influxdb.externalAddress -}}
     {{- end -}}
