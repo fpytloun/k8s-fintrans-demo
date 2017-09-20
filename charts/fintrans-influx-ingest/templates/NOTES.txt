@@ -1,0 +1,1 @@
+FinTrans Influx Ingest chart has been deployed.

@@ -23,5 +23,8 @@ spec:
         - {{ template "kafka-address" . }}
         command:
         - app
+        env:
+        - name: INFLUX_API
+          value: {{ template "influxdb-address" . }}
         resources:
 {{ toYaml .Values.resources | indent 12 }}
