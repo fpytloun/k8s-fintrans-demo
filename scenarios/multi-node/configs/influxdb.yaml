@@ -1,0 +1,2 @@
+dbInit: # or dbInit: {} to leve empty influx
+  dbName: fintrans
