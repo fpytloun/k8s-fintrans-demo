@@ -5,5 +5,5 @@ kafka:
 
 influxdb:
   deployChart: false
-  externalAddress: "http://influxdb-${TS_INFLUXDB_RELEASE}:8087"
+  externalAddress: "http://influx-${TS_INFLUXDB_RELEASE}:8087"
 
