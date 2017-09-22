@@ -1,4 +1,4 @@
 kafka:
   deployChart: false
-externalAddress: kafka-${TS_KAFKA_RELEASE}-0.kafka-${TS_KAFKA_RELEASE}:9092,kafka-${TS_KAFKA_RELEASE}-1.kafka-${TS_KAFKA_RELEASE}:9092,kafka-${TS_KAFKA_RELEASE}-2.kafka-${TS_KAFKA_RELEASE}:9092
-
+  #externalAddress: kafka-${TS_KAFKA_RELEASE}-0.kafka-${TS_KAFKA_RELEASE}:9092,kafka-${TS_KAFKA_RELEASE}-1.kafka-${TS_KAFKA_RELEASE}:9092,kafka-${TS_KAFKA_RELEASE}-2.kafka-${TS_KAFKA_RELEASE}:9092
+  externalAddress: kafka-${TS_KAFKA_RELEASE}-0.kafka-${TS_KAFKA_RELEASE}:9092
